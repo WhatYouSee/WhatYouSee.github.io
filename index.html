@@ -12,14 +12,26 @@
      color: red; 
     }
     .header4 {
-     font-family: "Helvetica";
+     font-family: "Helvetica" sans-serif;
      background-color: yellow;
+     color: white; 
+     border: dotted;
     }
+    th.header4 {
+     background-color: white;
+     color: yellow; 
+    }  
+    td.header4 {
+     background-color: white;
+     color: yellow; 
+    }  
     p {
      color: green; 
     }  
   </style>
+      <!-- everything online is in the body -->
   <body>
+    <!-- header 1 has the largest size font header -->
     <h1>header 1</h1>
       <ul>
         <li>unordered list</li>
@@ -41,9 +53,10 @@
             <th>table</th>
             <th>head</th>
             <th>tag</th>
-            <th>(th)</th>
+            <th class="header4">(th)</th>
           </tr>
         </thead>
+        <!-- Finish thead and begin tbody to align table content -->
         <tbody>
           <tr>
             <td>This</td>
@@ -52,7 +65,7 @@
             <td>table</td>
             <td>data</td>
             <td>tag</td>
-            <td>(td)</td>
+            <td class="header4">(td)</td>
           </tr>
         </tbody>
       </table>
@@ -60,7 +73,9 @@
     <!-- p value and class value together -->
     <p class="header4"><strong>CSS class</strong> that spread love <em>elsewhere</em>.</p>
     <h5>header 5</h5>
+        <!-- header 6 has the smallest size font header -->
     <h6>header 6</h6>
+        <!-- p is for paragraph -->
     <p>paragraph 1</p><br>
     <p>paragraph 2</p><br>
       
