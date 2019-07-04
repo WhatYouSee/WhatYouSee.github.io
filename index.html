@@ -11,11 +11,25 @@
     h1, h2, h3, h4, h5, h6 {
      font-family: "Helvetica"; 
      margin: 5px;
-     padding: 25px; 
+     padding: 10px; 
+    }
+    h2 {
+     color: orange;
     }
     h3 {
-     color: red; 
+     background-color: red; 
+     color: white;
     }
+    h4 {
+     color: green;
+    }
+    h5 {
+     background-color: yellow;
+    }
+    h6 {
+     color: brown;
+    }
+    
     .header4 {
      font-family: "Helvetica";
      background-color: blue;
@@ -60,18 +74,20 @@
   <body>
     <!-- header 1 has the largest size font header -->
     <!-- inline style is CSS. Only practice, avoid using for final. Use style with CSS for final --> 
-    <h1 style="background-color: purple; color: white;">header 1</h1>
+    <h1 style="background-color: purple; color: white;">Header 1 (h1)</h1>
       <ul class="spaced">
         <li>unordered list</li>
         <li>listed items</li>
+        <li><a href="#something">something down there that isn't really that important</a></li>
+        <li><a href="paragraph-2">and another thing to lead you somewhere down there</a></li>
       </ul>
-    <h2>header 2</h2>
+    <h2>Header 2 (h2)</h2>
       <ol class="spaced">
         <li>ordered list</li>
         <li>listed items</li>
         <li>in numeric order</li>
       </ol>
-    <h3>header 3</h3>
+    <h3>Header 3(h3)</h3>
       <table>
         <thead>
           <tr>
@@ -97,16 +113,16 @@
           </tr>
         </tbody>
       </table>
-    <h4>header 4</h4>
+    <h4>Header 4 (h4)</h4>
     <!-- p value and class value together -->
     <p class="header4"><strong>CSS class</strong> that spread love <em><strong>elsewhere</strong></em>.</p>
-    <h5>header 5</h5>
+    <h5>Header 5 (h5)</h5>
         <!-- header 6 has the smallest size font header -->
-    <h6>header 6</h6>
+    <h6>Header 6 (h6)</h6>
         <!-- p is for paragraph -->
-    <p><a target="_blank" href="https://whatyousee.github.io/">paragraph 1</a></p><br>
-    <p>paragraph 2</p><br>
+    <p id="something"><a target="_blank" href="https://whatyousee.github.io/">paragraph 1</a></p><br>
+    <p id"paragraph-2">paragraph 2</p><br>
       
     
   </body>
-</html>    
+</html> 
